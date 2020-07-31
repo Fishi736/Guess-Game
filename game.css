@@ -8,7 +8,7 @@
 
 }
 .container{
-    background: url('/123.png')center center no-repeat;
+    background: url('assets/123.png')center center no-repeat;
     background-size: cover;
     font-family: 'Recursive', sans-serif;
     display: flex;
