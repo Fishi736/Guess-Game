@@ -9,10 +9,10 @@ var message;
 
 $submitButton.onclick = () => {
     let userInput = document.getElementById("number-input").value;
-    lives--;
+    lives--; //decrementing the lives
+
     if (userInput == guessNumber) {
         location.href = "/win.html";
-        
     } else if (lives == 0) {
         location.href = "/lose.html";
     } else if (userInput > guessNumber) {
