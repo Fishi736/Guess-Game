@@ -49,6 +49,10 @@
     
 }
 
+a{
+    text-decoration: none;
+}
+
 #input-container{
     display: flex;
     flex-wrap: wrap;
@@ -85,3 +89,4 @@ input:focus{
     background-color: rgb(12, 247, 90);
 
 }
+
