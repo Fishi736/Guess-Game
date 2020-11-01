@@ -12,9 +12,9 @@ $submitButton.onclick = () => {
     lives--; //decrementing the lives
 
     if (userInput == guessNumber) {
-        location.href = "/win.html";
+        location.replace("/win.html");
     } else if (lives == 0) {
-        location.href = "/lose.html";
+        location.replace("/lose.html") ;
     } else if (userInput > guessNumber) {
         message = `oops! Your guess is too high. You have ${lives} remaining`;
     } else if (userInput < guessNumber) {
